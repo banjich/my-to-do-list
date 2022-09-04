@@ -1,0 +1,98 @@
+.App {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  min-height: 300px;
+  background-color: #e3e3e3;
+  padding-bottom: 20px;
+  box-shadow: 10px 10px 6px darkgray;
+}
+
+h1 {
+  margin: 10px;
+  color: rgb(67, 64, 64);
+}
+
+.task {
+  margin: 6px;
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  min-height: 30px;
+  background-color: #8fbcc7;
+  font-size: 20px;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 6px;
+  color: white;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.delete {
+  justify-content: end;
+  width: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 2px;
+}
+
+.delete:hover {
+  background-color: #e3eff1;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  padding-left: 8px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.add-btn {
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  font-weight: bold;
+  color: #8fbcc7;
+}
+
+.add-btn:focus {
+  outline: none !important;
+}
+
+.add-btn:hover {
+  background-color: #8fbcc7;
+  cursor: pointer;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 4px 2px 2px darkgray;
+  margin: 10px;
+}
